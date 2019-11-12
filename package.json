@@ -1,0 +1,28 @@
+{
+  "name": "typescript-unit-testing-basics",
+  "version": "1.0.0",
+  "description": "basic project using typescript and mocha/chai to unit test",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "mocha -r ts-node/register src/**/*.test.ts --watch-extensions ts --watch"
+  },
+  "keywords": [
+    "typescript, mocha, chai, testing, webpack"
+  ],
+  "author": "hamzah husseini",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.4",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mocha": "^6.2.2",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
